@@ -1,7 +1,7 @@
 {
   "name": "eleventy-sass",
   "version": "1.0.0",
-  "description": "Your Site Description Goes Here",
+  "description": "A website about a pet care center.",
   "main": "index.html",
   "scripts": {
     "watch:sass": "sass --watch src/sass:public/css",
@@ -12,7 +12,7 @@
     "build": "npm-run-all build:sass build:eleventy"
   },
   "keywords": [],
-  "author": "Your Name",
+  "author": "Mirlinda Pacolli",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
