@@ -1,0 +1,316 @@
+$primary: #7AB730;
+$dark-green: #34570a;
+$light: #F3F3F3;
+$dark: #212121;
+$gray: #9b9895;
+$padding: 2rem 4rem 6rem 4rem;
+$footer-padding: 2rem 4rem;
+
+/* Home page */
+.entry-section {
+    background-image: url("/images/entry-img.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: $padding;
+}
+
+.about-us-img {
+    img {
+        max-width: 36rem;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+#about-us-vertical-line {
+    margin: 0;
+}
+
+.header-text {
+    padding-left: 1rem;
+
+    h4 {
+        margin-top: 2rem;
+    }
+}
+
+.about-us-info {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: $light;
+    border-radius: 10px;
+
+    h4 {
+        margin-top: 0.3rem;
+    }
+}
+
+.special-offer {
+    background-image: url("/images/offer.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: $padding;
+}
+
+#special-offer-vertical-line {
+    margin: 0;
+}
+
+.so-header-text {
+    padding-left: 1rem;
+
+    h1 {
+        margin-top: 1.5rem;
+    }
+
+    h4 {
+        margin-top: 1.5rem;
+    }
+}
+
+/* About page */
+#about-us-section {
+    padding-top: 2rem;
+}
+
+.team {
+    padding: $padding;
+}
+
+.team-members {
+    margin-top: 2rem;
+}
+
+.team-member {
+    padding: 1rem;
+    background-color: $light;
+    border-radius: 10px;
+    margin-right: 2rem;
+
+    a {
+        img {
+            width: 100%;  
+            
+            &:hover {
+                border-radius: 50%;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+}
+
+/* Team Member Bio */
+.team-member-bio {
+    padding: $padding;
+}
+
+.team-member-img {
+    padding: 1rem;
+
+    img {
+        max-width: 15rem;
+        border-radius: 20px;
+    }
+}
+
+/* Service page */
+.service-section {
+    padding: $padding;
+    padding-top: 0;
+}
+
+.services {
+    margin-top: 3rem;
+}
+
+.service {
+    padding: 1rem;
+    background-color: $light;
+
+    i {
+        margin-right: 1rem;
+
+        &:hover {
+            cursor: pointer;
+            transition-duration: 0.5s;
+        }
+    }
+}
+
+.testimonials-section {
+    padding: $padding;
+    background-color: $light;
+}
+
+.testimonials {
+    margin-top: 3rem;
+}
+
+.testimonial {
+    padding: 2rem 3rem 0 3rem;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        border-radius: 50%;
+
+        &:hover {
+            border-radius: 30%;
+            transition-duration: 0.5s;
+        }
+    }
+
+    h4 {
+        margin-bottom: 0;
+    }
+}
+
+.pricing-plan-section {
+    padding: $padding;
+}
+
+.pricing-tables {
+    padding: 3rem 4rem 0 4rem;
+
+    table {
+        background-color: $light;
+    }
+
+    tr {
+        td {
+            padding: 0 4rem;
+        }
+    }
+}
+
+#dark-row {
+    background-color: $dark;
+    height: 6rem;
+}
+
+.green-rows {
+    background-color: $primary;
+    height: 6rem;
+}
+
+/* Contact page */
+.contact-us-section {
+    padding: $padding;
+    padding-top: 0;
+}
+
+#contact-vertical-line {
+    margin: 0;
+}
+
+.contact-us-header {
+    padding: 1rem 0 1rem 1.5rem;
+}
+
+.contact-us-form {
+    padding: 2rem;
+}
+
+.input {
+    input, textarea {
+        background-color: $light;
+        margin-bottom: 1.5rem;
+        border: none;
+        padding-left: 0.5rem;
+        width: 40rem;
+        height: 3rem;
+    }
+
+    textarea {
+        height: 11rem;
+    }
+
+    button {
+        background-color: $primary;
+        border: none;
+        width: 40.5rem;
+        height: 3rem;
+        cursor: pointer;
+    }
+}
+
+.info-about-us {
+    background-color: $light;
+    margin: 2rem;
+    padding: 2.5rem;
+}
+
+.text-start {
+    margin: 0 0 1.5rem 1rem;
+
+    h6 {
+        margin: 0;
+    }
+}
+
+/* Footer */
+.footer-info {
+    padding: $footer-padding;
+    padding-bottom: 4rem;
+    background-color: $light;
+}
+
+.get-in-touch-section {
+    i {
+        padding-right: 0.5rem;
+    }
+}
+
+.quick-links {
+    a {
+        padding-bottom: 0.5rem;
+
+        &:hover {
+            transition-duration: 0.5s;
+            cursor: pointer;
+        }
+    }
+
+    i {
+        padding-right: 0.5rem;
+    }
+}
+
+.input-group {
+    input {
+        height: 3rem;
+        background-color: white;
+        border: none;
+    }
+}
+
+.newsletter-button {
+    height: 3rem;
+    width: 4rem;
+    background-color: $primary;
+    border: none;
+
+    &:hover {
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+}
+
+.newsletter-section {
+    h6 {
+        margin-bottom: 1rem;
+    }
+}
+
+.social-media-link {
+    border: 1px solid $primary;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.website-rights {
+    background-color: $dark;
+    padding: $footer-padding;
+}

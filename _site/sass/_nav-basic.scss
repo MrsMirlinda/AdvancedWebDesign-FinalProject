@@ -1,0 +1,66 @@
+$padding: 2rem 4rem 6rem 4rem;
+$dark: #212121;
+$primary: #7AB730;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+  a {
+      text-decoration: none;
+      color: $dark;
+  }
+
+  nav {
+      .hamburger {
+          display: none;
+          background-color: transparent;
+          border: none;
+          font-size: 1.5rem;
+          color: #fff;
+          cursor: pointer;
+      }
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  img {
+      margin: 0.8rem 0.5rem 0 0;
+      width: 3rem;
+      height: 3rem;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.menu {
+  a {
+      padding-left: 1rem;
+      font-weight: bold;
+  
+      &:hover {
+          color: $primary;
+          transition-duration: 0.5s;
+          cursor: pointer;
+      }
+  }
+}
+
+#logo-text {
+  font-size: 2rem;
+}
+
+#active {
+  color: $primary;
+}

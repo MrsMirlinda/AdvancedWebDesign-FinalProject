@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500');
+/* Optional, include a web font. @import must come before other styles. */
+
+/*  ==========================
+    BASE TYPOGRAPHY
+    This is added as a template to help start. 
+    You should change the fonts, font-sizes and anything else appropriate for your site.
+    ========================== */
+  
+    $primary: #7AB730;
+    $dark-green: #34570a;
+    $light: #F3F3F3;
+    $dark: #212121;
+    $gray: #9b9895;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  a {
+    text-decoration: none;
+    color: $dark;
+  }
+}
+
+.entry-section {
+  h1 {
+      font-size: 5rem;
+  }
+
+  h4 {
+      font-size: 2.5rem;
+      margin-top: 1.5rem;
+      color: $light;
+  }
+
+  p {
+      font-size: 1.3rem;
+      color: $dark-green;
+      max-width: 45ch;
+  }
+}
+
+#about-us-vertical-line {
+  font-size: 6rem;
+  color: $primary;
+}
+
+.header-text {
+  h1 {
+      color: $dark;
+  }
+
+  h4 {
+      color: $primary;
+  }
+}
+
+.about-us-info {
+  h4 {
+      color: $primary;
+      font-size: 1.2rem;
+      text-align: center;
+  }
+
+  p {
+      color: $gray;
+      line-height: 1.5rem;
+      text-align: justify;
+  }
+}
+
+#special-offer-vertical-line {
+  color: $dark;
+  font-size: 6rem;
+}
+
+.so-header-text {
+  padding-left: 1rem;
+
+  h1 {
+      color: $light;
+      font-size: 2rem;
+  }
+
+  h4 {
+      color: $dark;
+  }
+}
+
+#so-text {
+  color: $light;
+  max-width: 70ch;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+/* About page */
+.team-member {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: $light;
+  border-radius: 10px;
+  margin-right: 2rem;
+
+  a {
+      text-decoration: none;
+
+      p {
+          text-align: center;
+          color: $dark;
+      }
+  }
+}
+
+/* Team Member Bio */
+.team-member-img {
+  p {
+      text-align: center;
+      font-weight: bold;
+      color: $dark;
+  }
+}
+
+.team-member-info {
+  h4 {
+      color: $primary;
+      text-align: center;
+  }
+
+  p {
+      text-align: justify;
+      color: $gray;
+      line-height: 1.5rem;
+  }
+}
+
+/* Service page */
+.service {
+  i {
+      color: $primary;
+      font-size: 4rem;
+
+      &:hover {
+          color: $dark-green;
+      }
+  }
+
+  div {
+      p {
+          color: $gray;
+      }
+  }
+}
+
+.testimonial {
+  h4 {
+      text-decoration: overline;
+      text-align: center;
+  }
+
+  p {
+      color: $gray;
+      text-align: center;
+  }
+}
+
+.pricing-tables {
+  table {
+      text-align: center;
+  }
+}
+
+.title {
+  color: $dark;
+  font-size: 1.5rem;
+}
+
+#dark-row {
+  color: white;
+}
+
+.green-rows {
+  color: white;
+}
+
+.price {
+  span {
+      font-size: 2.5rem;
+      font-weight: bold;
+  }
+}
+
+#included {
+  color: $primary;
+}
+
+#not-included {
+  color: red;
+}
+
+/* Contact page */
+#contact-vertical-line {
+  font-size: 7rem;
+  color: $primary;
+}
+
+.contact-us-header {
+  h4 {
+      color: $primary;
+      font-size: 1.2rem;
+  }
+}
+
+.input {
+  button {
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+  }
+}
+
+.contact-us-info {
+  i {
+      color: $primary;
+      font-size: 2.5rem;
+  }
+}
+
+.text-start {
+  h6 {
+      font-weight: bold;
+      font-size: 1rem;
+      color: $dark;
+  }
+
+  span {
+      color: $gray;
+  }
+}
+
+/* Footer */
+footer {
+  color: $gray;
+  font-size: 1rem;
+}
+
+.get-in-touch-section {
+  i {
+      color: $primary;
+  }
+}
+
+.quick-links {
+  a {
+      text-decoration: none;
+      color: $gray;
+
+      &:hover {
+          color: $dark-green;
+          font-weight: bold;
+      }
+  }
+
+  i {
+      color: $primary;
+  }
+}
+
+.footer-info-header {
+  color: $dark;
+  font-size: 1.5rem;
+
+  span {
+      color: $primary;
+      font-weight: bold;
+      font-size: 1.8rem;
+  }
+}
+
+.newsletter-button {
+  color: white;
+  font-weight: bold;
+
+  &:hover {
+      color: $dark;
+  }
+}
+
+.newsletter-section {
+  h6 {
+      color: $dark;
+      font-weight: bold;
+      font-size: 1.2rem;
+  }
+}
+
+.social-media-links {
+  i {
+      color: $primary;
+
+      &:hover {
+          color: $dark-green;
+          transition-duration: 0.5s;
+          cursor: pointer;
+      }
+  }
+}
+
+.white-text {
+  color: white;
+  text-decoration: none;
+}
