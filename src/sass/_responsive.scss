@@ -1,51 +1,359 @@
 /* ======================================================
    Responsive Styling and Layout
    =======================================================  */
+   $primary: #7AB730;
+   $dark-green: #34570a;
+   $light: #F3F3F3;
+   $dark: #212121;
+   $gray: #9b9895;
+   $padding: 2rem 4rem 6rem 4rem;
+   $footer-padding: 2rem 4rem;
 
-/* ========== Use Border Box model ============ */
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  /* ======== Basic Responsive Images and Video ========= */
-  img,video{
-    width: auto;
-    height: auto;
-    max-width: 100%;
+/* Make website responsive for tablet */
+@media screen and (max-width: 1024px) {
+  /* Header */
+  .navbar {
+      display: block;
   }
 
-//   The figure element adds margin around it. This removes the default margins (most people dont' expect or want them)
-//   add them back in as needed or wanted
-  figure{
-      margin: 0;
+  .menu {
+      display: none;
+  }
+
+  nav {
+      .show {
+          display: block;
+          background-color: $light;
+          border-radius: 10px;
+
+          a {
+              display: block;
+              padding: 10px;
+              color: $dark;
+          }
+      }
+  }
+
+  header {
+      nav {
+          .hamburger {
+              display: block;
+              background-color: transparent;
+              border: none;
+              font-size: 1.5rem;
+              color: black;
+              cursor: pointer;
+              margin-left: auto;
+              margin-top: 1.2rem;
+
+              &:hover {
+                  background-color: $light;
+                  border-radius: 6px;
+                  transition-duration: 0.5s;
+              }
+          }
+      }
+  }
+
+  /* Home page */
+  .about-us-section {
+      justify-content: center;
+      flex-wrap: wrap;
   }
   
-  /* ======== Responsive Embedded Video ================= */
-  /* to use this add a div with class videoWrapper around the iframe markup copied from YouTube or Vimeo. Then also add a ratio-16-9 (most common) or ratio-4-3 class to the wrapper depending on the aspect ratio of your video */
-  /* More info here: https://codepen.io/profstein/pen/mArLRj */
-  .videoWrapper {
-      position: relative;
-      padding-top: 25px;
-      height: 0;
-    clear:both;
-    outline:1px solid red;
+  /* Service page */
+  .pricing-tables {
+      tr {
+          td {
+              padding: 0 2rem;
+          }
+      }
+  }
+
+  .price {
+      span {
+          font-size: 2rem;
+      }
+  }
+
+  .title {
+      font-size: 1rem;
+  }
+
+  /* Contact page */
+  .contact-us-input-and-info {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .info-about-us {
+      margin-left: 0;
+  }
+}
+
+/* Make website responsive for mobile phones */
+@media screen and (max-width: 480px) {
+  /* Header */
+  header {
+      padding: 0.3rem;
+
+      nav  {
+          .hamburger {
+              margin-top: 0.8rem;
+          }
+      }
+  }
+
+  #logo-text {
+      font-size: 1rem;
+      margin-top: 2.4rem;
+  }
+
+  /* Home page */
+  .entry-section {
+      padding: 0.5rem;
+
+      h1 {
+          font-size: 2rem;
+      }
+
+      h4 {
+          font-size: 1.5rem;
+          max-width: 16ch;
+      }
+
+      p {
+          font-size: 1rem;
+          max-width: 20ch;
+      }
+  }
+
+  .about-us-section {
+      padding: 3rem 0;
+  }
+
+  .about-us-img {
+      margin-top: 0;
+
+      img {
+          max-width: 20rem;
+      }
+  }
+
+  .about-us-info {
+      margin-top: 1rem;
+      margin: 0.5rem 2.5rem 0 1.5rem;
   }
   
-  .videoWrapper.ratio-16-9{
-      padding-bottom: 56.25%; /* 16:9 */
+  .special-offer {
+      padding: 0.5rem;
+  }
+
+  .so-header-text {
+      h1{
+          font-size: 1.2rem;
+      }    
+  }
+
+  #so-text {
+      padding: 0 5rem 0 1.5rem;
+      line-height: normal;
+      text-align: start;
+  }
+
+  /* About page */
+  .header-text {
+    h1 {
+      font-size: 1.3rem;
+    }
+  }
+  .team {
+      padding: 0.5rem;
+  }
+
+  .team-members {
+      margin: 0.5rem 0 0 1.5rem;
+      flex-wrap: wrap;
+      row-gap: 1.5rem;
+  }
+
+  /* Team Member Bio */
+  .team-member-bio {
+      padding: 0.5rem;
+  }
+
+  .team-member-img-and-bio {
+      flex-wrap: wrap;
+      gap: 0;
+  }
+
+  .team-member-img {
+      margin-bottom: 0;
+
+      p {
+          margin-bottom: 0;
+      }
+  }
+
+  .team-member-info {
+      margin-top: 0;
+
+      h4 {
+          display: none;
+      }
+
+      p {
+          margin-top: 0;
+      }
+  }
+
+  /* Service page */
+  .service-section {
+      padding: 0.5rem;
+  }
+
+  .services {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+
+  #service-header {
+      font-size: 0.8rem;
+  }
+
+  .testimonials-section {
+      margin-top: 2rem;
+      padding: 0.5rem;
+  }
+
+  .testimonials {
+      flex-wrap: wrap;
+      gap: 2rem;
+  }
+
+  .testimonial {
+      margin: 0 2rem;
+  }
+
+  .pricing-plan-section {
+      padding: 0.5rem;
+  }
+
+  .pricing-tables {
+      padding: 1rem 1.5rem 0 1.5rem;
+      justify-content: center;
+      gap: 1.5rem;
+  }
+
+  #dark-row {
+      height: 4rem;
   }
   
-  .videoWrapper.ratio-4-3{
-      padding-bottom: 75%; /* 4:3 */
+  .green-rows {
+      height: 4rem;
+  }
+
+  /* Contact page */
+  .contact-us-section {
+      padding: 0.5rem;
+  }
+
+  .input {
+      input, textarea {
+          width: 16rem;
+          margin-bottom: 0.5rem;
+          height: 2rem;
+      }
+
+      textarea {
+          height: 8rem;
+      }
+
+      button {
+          width: 16.5rem;
+          height: 2.5rem;
+          font-size: 0.9rem;
+      }
+  }
+
+  .contact-us-form {
+      padding: 0;
+  }
+
+  .contact-us-info {
+      i {
+          font-size: 1.5rem;
+      }
+  }
+
+  .info-about-us {
+      padding-left: 5rem;
+      background-color: white;
+  }
+
+  .text-start {
+      margin: 0 0 1rem 0.5rem;
+
+      h6 {
+          font-size: 0.8rem;
+      }
+
+      span {
+          font-size: 0.7rem;
+      }
+  }
+
+  .contact-us-header {
+      padding: 0.5rem 0 0.5rem 1rem;
+
+      h1 {
+          font-size: 1.2rem;
+      }
+
+      h4 {
+          font-size: 1rem;
+          margin-bottom: 0;
+      }
+  }
+
+  /* Footer */
+  footer {
+      font-size: 0.8rem;
   }
   
-  .videoWrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+  .footer-info {
+      padding: 0.5rem;
   }
+
+  .footer-info-header {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+
+      span {
+          display: none;
+      }
+  }
+
+  .input-group {
+      input {
+          height: 2rem;
+          background-color: white;
+      }
+  }
+
+  .newsletter-button {
+      height: 2.2rem;
+  }
+
+  .newsletter-section {
+      h6 {
+          font-size: 0.8rem;
+      }
+  }
+
+  .social-media-links {
+      margin-bottom: 0.5rem;
+  }
+}
