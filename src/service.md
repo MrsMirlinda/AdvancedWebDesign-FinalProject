@@ -15,45 +15,57 @@ tags: navItem
     </div>
     <div class="services">
         <div class="service">
-            <i class="fa fa-home"></i>
+            <i class="fa fa-home" id="dark-green-when-hovering"></i>
             <div>
                 <h3>PET BOARDING</h3>
-                <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                <p>
+                    Your furry friend will enjoy spacious accommodations and personalized attention.
+                </p>
             </div>
         </div>
         <div class="service">
-            <i class="fa fa-cutlery"></i>
+            <i class="fa fa-cutlery" id="dark-green-when-hovering"></i>
             <div>
                 <h3>PET FEEDING</h3>
-                <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                <p>
+                    Feel free to let us know about any of your pet's dietary restrictions or preferences to ensure their nutritional needs are met during their stay.
+                </p>
             </div>
         </div>
         <div class="service">
-            <i class="fa fa-scissors"></i>
+            <i class="fa fa-scissors" id="dark-green-when-hovering"></i>
             <div>
                 <h3>PET GROOMING</h3>
-                <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                <p>
+                    Our professional groomers offer a range of services including bathing, brushing, nail trimming, and optional add-ons such as fur styling and teeth cleaning.
+                </p>
             </div>
         </div>
         <div class="service">
-            <i class="fa fa-paw"></i>
+            <i class="fa fa-paw" id="dark-green-when-hovering"></i>
             <div>
                 <h3>PET TRAINING</h3>
-                <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                <p>
+                    Enhance your pet's skills and behavior with our expert training program! Our certified trainers use positive reinforcement techniques to teach obedience commands, leash manners, and address specific behavioral issues.
+                </p>
             </div>
         </div>
         <div class="service">
-            <i class="fa fa-superpowers"></i>
+            <i class="fa fa-superpowers" id="dark-green-when-hovering"></i>
             <div>
                 <h3>PET EXERCISE</h3>
-                <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                <p>
+                    Keeping your pet active and happy is our priority! Our facility offers dedicated exercise areas, interactive play sessions, and stimulating toys to ensure that your pet gets the physical activity they need. 
+                </p>
             </div>
         </div>
         <div class="service">
-            <i class="fa fa-thermometer"></i>
+            <i class="fa fa-thermometer" id="dark-green-when-hovering"></i>
             <div>
                 <h3>PET TREATMENT</h3>
-                <p>Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit</p>
+                <p>
+                    Rest assured that your pet's health and well-being are our top priorities. Our trained staff is experienced in administering medications, providing medical treatments, and monitoring any specific conditions or special needs.
+                </p>
             </div>
         </div>
     </div>

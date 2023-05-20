@@ -2,7 +2,6 @@ $primary: #7AB730;
 $dark-green: #34570a;
 $light: #F3F3F3;
 $dark: #212121;
-$gray: #9b9895;
 $padding: 2rem 4rem 6rem 4rem;
 $footer-padding: 2rem 4rem;
 
@@ -89,8 +88,8 @@ $footer-padding: 2rem 4rem;
 
     a {
         img {
-            width: 100%;  
-            
+            width: 100%;
+
             &:hover {
                 border-radius: 50%;
                 transition-duration: 0.5s;
@@ -214,7 +213,9 @@ $footer-padding: 2rem 4rem;
 }
 
 .input {
-    input, textarea {
+
+    input,
+    textarea {
         background-color: $light;
         margin-bottom: 1.5rem;
         border: none;
@@ -233,6 +234,11 @@ $footer-padding: 2rem 4rem;
         width: 40.5rem;
         height: 3rem;
         cursor: pointer;
+
+        &:hover {
+            color: $dark;
+            transition-duration: 0.5s;
+        }
     }
 }
 
@@ -250,6 +256,17 @@ $footer-padding: 2rem 4rem;
     }
 }
 
+.contact-us-info {
+    i {
+        cursor: pointer;
+
+        &:hover {
+            color: $dark-green;
+            transition-duration: 0.5s;
+        }
+    }
+}
+
 /* Footer */
 .footer-info {
     padding: $footer-padding;
@@ -260,6 +277,11 @@ $footer-padding: 2rem 4rem;
 .get-in-touch-section {
     i {
         padding-right: 0.5rem;
+
+        // &:hover {
+        //     color: $dark-green;
+        //     transition-duration: 0.5s;
+        // }
     }
 }
 
@@ -313,4 +335,13 @@ $footer-padding: 2rem 4rem;
 .website-rights {
     background-color: $dark;
     padding: $footer-padding;
+}
+
+#dark-green-when-hovering {
+    cursor: pointer;
+
+    &:hover {
+        color: $dark-green; 
+        transition-duration: 0.5s;
+    }
 }

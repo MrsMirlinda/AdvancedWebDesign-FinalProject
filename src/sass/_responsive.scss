@@ -1,359 +1,370 @@
 /* ======================================================
    Responsive Styling and Layout
    =======================================================  */
-   $primary: #7AB730;
-   $dark-green: #34570a;
-   $light: #F3F3F3;
-   $dark: #212121;
-   $gray: #9b9895;
-   $padding: 2rem 4rem 6rem 4rem;
-   $footer-padding: 2rem 4rem;
+$light: #F3F3F3;
+$dark: #212121;
 
 /* Make website responsive for tablet */
 @media screen and (max-width: 1024px) {
-  /* Header */
-  .navbar {
-      display: block;
-  }
 
-  .menu {
-      display: none;
-  }
+    /* Header */
+    .navbar {
+        display: block;
+        position: relative;
+    }
 
-  nav {
-      .show {
-          display: block;
-          background-color: $light;
-          border-radius: 10px;
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1;
 
-          a {
-              display: block;
-              padding: 10px;
-              color: $dark;
-          }
-      }
-  }
+        a {
+            display: none;
+        }
+    }
 
-  header {
-      nav {
-          .hamburger {
-              display: block;
-              background-color: transparent;
-              border: none;
-              font-size: 1.5rem;
-              color: black;
-              cursor: pointer;
-              margin-left: auto;
-              margin-top: 1.2rem;
+    nav {
+        .show {
+            display: block;
+            background-color: $light;
+            border-radius: 10px;
 
-              &:hover {
-                  background-color: $light;
-                  border-radius: 6px;
-                  transition-duration: 0.5s;
-              }
-          }
-      }
-  }
+            a {
+                display: block;
+                padding: 10px;
+                color: $dark;
+            }
+        }
+    }
 
-  /* Home page */
-  .about-us-section {
-      justify-content: center;
-      flex-wrap: wrap;
-  }
-  
-  /* Service page */
-  .pricing-tables {
-      tr {
-          td {
-              padding: 0 2rem;
-          }
-      }
-  }
+    header {
+        nav {
+            .hamburger {
+                display: block;
+                background-color: transparent;
+                border: none;
+                font-size: 1.5rem;
+                color: black;
+                cursor: pointer;
+                margin-left: auto;
+                margin-top: 1.2rem;
+                z-index: 2;
 
-  .price {
-      span {
-          font-size: 2rem;
-      }
-  }
+                &:hover {
+                    background-color: $light;
+                    border-radius: 6px;
+                    transition-duration: 0.5s;
+                }
+            }
+        }
+    }
 
-  .title {
-      font-size: 1rem;
-  }
+    /* Home page */
+    .about-us-section {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-  /* Contact page */
-  .contact-us-input-and-info {
-      flex-wrap: wrap;
-      justify-content: center;
-  }
+    /* Service page */
+    .pricing-tables {
+        tr {
+            td {
+                padding: 0 2rem;
+            }
+        }
+    }
 
-  .info-about-us {
-      margin-left: 0;
-  }
+    .price {
+        span {
+            font-size: 2rem;
+        }
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    /* Contact page */
+    .contact-us-input-and-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .info-about-us {
+        margin-left: 0;
+    }
 }
 
 /* Make website responsive for mobile phones */
 @media screen and (max-width: 480px) {
-  /* Header */
-  header {
-      padding: 0.3rem;
 
-      nav  {
-          .hamburger {
-              margin-top: 0.8rem;
-          }
-      }
-  }
+    /* Header */
+    header {
+        padding: 0.3rem;
 
-  #logo-text {
-      font-size: 1rem;
-      margin-top: 2.4rem;
-  }
-
-  /* Home page */
-  .entry-section {
-      padding: 0.5rem;
-
-      h1 {
-          font-size: 2rem;
-      }
-
-      h4 {
-          font-size: 1.5rem;
-          max-width: 16ch;
-      }
-
-      p {
-          font-size: 1rem;
-          max-width: 20ch;
-      }
-  }
-
-  .about-us-section {
-      padding: 3rem 0;
-  }
-
-  .about-us-img {
-      margin-top: 0;
-
-      img {
-          max-width: 20rem;
-      }
-  }
-
-  .about-us-info {
-      margin-top: 1rem;
-      margin: 0.5rem 2.5rem 0 1.5rem;
-  }
-  
-  .special-offer {
-      padding: 0.5rem;
-  }
-
-  .so-header-text {
-      h1{
-          font-size: 1.2rem;
-      }    
-  }
-
-  #so-text {
-      padding: 0 5rem 0 1.5rem;
-      line-height: normal;
-      text-align: start;
-  }
-
-  /* About page */
-  .header-text {
-    h1 {
-      font-size: 1.3rem;
+        nav {
+            .hamburger {
+                margin-top: 0.8rem;
+            }
+        }
     }
-  }
-  .team {
-      padding: 0.5rem;
-  }
 
-  .team-members {
-      margin: 0.5rem 0 0 1.5rem;
-      flex-wrap: wrap;
-      row-gap: 1.5rem;
-  }
+    #logo-text {
+        font-size: 1rem;
+        margin-top: 2.4rem;
+    }
 
-  /* Team Member Bio */
-  .team-member-bio {
-      padding: 0.5rem;
-  }
+    /* Home page */
+    .entry-section {
+        padding: 0.5rem;
 
-  .team-member-img-and-bio {
-      flex-wrap: wrap;
-      gap: 0;
-  }
+        h1 {
+            font-size: 2rem;
+        }
 
-  .team-member-img {
-      margin-bottom: 0;
+        h4 {
+            font-size: 1.5rem;
+            max-width: 16ch;
+        }
 
-      p {
-          margin-bottom: 0;
-      }
-  }
+        p {
+            font-size: 1rem;
+            max-width: 20ch;
+        }
+    }
 
-  .team-member-info {
-      margin-top: 0;
+    .about-us-section {
+        padding: 3rem 0;
+    }
 
-      h4 {
-          display: none;
-      }
+    .about-us-img {
+        margin-top: 0;
 
-      p {
-          margin-top: 0;
-      }
-  }
+        img {
+            max-width: 20rem;
+        }
+    }
 
-  /* Service page */
-  .service-section {
-      padding: 0.5rem;
-  }
+    .about-us-info {
+        margin-top: 1rem;
+        margin: 0.5rem 2.5rem 0 1.5rem;
+    }
 
-  .services {
-      margin-top: 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-  }
+    .special-offer {
+        padding: 0.5rem;
+    }
 
-  #service-header {
-      font-size: 0.8rem;
-  }
+    .so-header-text {
+        h1 {
+            font-size: 1.2rem;
+        }
+    }
 
-  .testimonials-section {
-      margin-top: 2rem;
-      padding: 0.5rem;
-  }
+    #so-text {
+        padding: 0 5rem 0 1.5rem;
+        line-height: normal;
+        text-align: start;
+    }
 
-  .testimonials {
-      flex-wrap: wrap;
-      gap: 2rem;
-  }
+    /* About page */
+    .header-text {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
 
-  .testimonial {
-      margin: 0 2rem;
-  }
+    .team {
+        padding: 0.5rem;
+    }
 
-  .pricing-plan-section {
-      padding: 0.5rem;
-  }
+    .team-members {
+        margin: 0.5rem 0 0 1.5rem;
+        flex-wrap: wrap;
+        row-gap: 1.5rem;
+    }
 
-  .pricing-tables {
-      padding: 1rem 1.5rem 0 1.5rem;
-      justify-content: center;
-      gap: 1.5rem;
-  }
+    /* Team Member Bio */
+    .team-member-bio {
+        padding: 0.5rem;
+    }
 
-  #dark-row {
-      height: 4rem;
-  }
-  
-  .green-rows {
-      height: 4rem;
-  }
+    .team-member-img-and-bio {
+        flex-wrap: wrap;
+        gap: 0;
+    }
 
-  /* Contact page */
-  .contact-us-section {
-      padding: 0.5rem;
-  }
+    .team-member-img {
+        margin-bottom: 0;
 
-  .input {
-      input, textarea {
-          width: 16rem;
-          margin-bottom: 0.5rem;
-          height: 2rem;
-      }
+        p {
+            margin-bottom: 0;
+        }
+    }
 
-      textarea {
-          height: 8rem;
-      }
+    .team-member-info {
+        margin-top: 0;
 
-      button {
-          width: 16.5rem;
-          height: 2.5rem;
-          font-size: 0.9rem;
-      }
-  }
+        h4 {
+            display: none;
+        }
 
-  .contact-us-form {
-      padding: 0;
-  }
+        p {
+            margin-top: 0;
+        }
+    }
 
-  .contact-us-info {
-      i {
-          font-size: 1.5rem;
-      }
-  }
+    /* Service page */
+    .service-section {
+        padding: 0.5rem;
+    }
 
-  .info-about-us {
-      padding-left: 5rem;
-      background-color: white;
-  }
+    .services {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
 
-  .text-start {
-      margin: 0 0 1rem 0.5rem;
+    #service-header {
+        font-size: 0.8rem;
+    }
 
-      h6 {
-          font-size: 0.8rem;
-      }
+    .testimonials-section {
+        margin-top: 2rem;
+        padding: 0.5rem;
+    }
 
-      span {
-          font-size: 0.7rem;
-      }
-  }
+    .testimonials {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 
-  .contact-us-header {
-      padding: 0.5rem 0 0.5rem 1rem;
+    .testimonial {
+        margin: 0 2rem;
+    }
 
-      h1 {
-          font-size: 1.2rem;
-      }
+    .pricing-plan-section {
+        padding: 0.5rem;
+    }
 
-      h4 {
-          font-size: 1rem;
-          margin-bottom: 0;
-      }
-  }
+    .pricing-tables {
+        padding: 1rem 1.5rem 0 1.5rem;
+        justify-content: center;
+        gap: 1.5rem;
+    }
 
-  /* Footer */
-  footer {
-      font-size: 0.8rem;
-  }
-  
-  .footer-info {
-      padding: 0.5rem;
-  }
+    #dark-row {
+        height: 4rem;
+    }
 
-  .footer-info-header {
-      font-size: 1rem;
-      margin-bottom: 0.5rem;
+    .green-rows {
+        height: 4rem;
+    }
 
-      span {
-          display: none;
-      }
-  }
+    /* Contact page */
+    .contact-us-section {
+        padding: 0.5rem;
+    }
 
-  .input-group {
-      input {
-          height: 2rem;
-          background-color: white;
-      }
-  }
+    .input {
 
-  .newsletter-button {
-      height: 2.2rem;
-  }
+        input,
+        textarea {
+            width: 16rem;
+            margin-bottom: 0.5rem;
+            height: 2rem;
+        }
 
-  .newsletter-section {
-      h6 {
-          font-size: 0.8rem;
-      }
-  }
+        textarea {
+            height: 8rem;
+        }
 
-  .social-media-links {
-      margin-bottom: 0.5rem;
-  }
+        button {
+            width: 16.5rem;
+            height: 2.5rem;
+            font-size: 0.9rem;
+        }
+    }
+
+    .contact-us-form {
+        padding: 0;
+    }
+
+    .contact-us-info {
+        i {
+            font-size: 1.5rem;
+        }
+    }
+
+    .info-about-us {
+        padding-left: 5rem;
+        background-color: white;
+    }
+
+    .text-start {
+        margin: 0 0 1rem 0.5rem;
+
+        h6 {
+            font-size: 0.8rem;
+        }
+
+        span {
+            font-size: 0.7rem;
+        }
+    }
+
+    .contact-us-header {
+        padding: 0.5rem 0 0.5rem 1rem;
+
+        h1 {
+            font-size: 1.2rem;
+        }
+
+        h4 {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+    }
+
+    /* Footer */
+    footer {
+        font-size: 0.8rem;
+    }
+
+    .footer-info {
+        padding: 0.5rem;
+    }
+
+    .footer-info-header {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+
+        span {
+            display: none;
+        }
+    }
+
+    .input-group {
+        input {
+            height: 2rem;
+            background-color: white;
+        }
+    }
+
+    .newsletter-button {
+        height: 2.2rem;
+    }
+
+    .newsletter-section {
+        h6 {
+            font-size: 0.8rem;
+        }
+    }
+
+    .social-media-links {
+        margin-bottom: 0.5rem;
+    }
 }

@@ -1,14 +1,4 @@
-/* ================= ===========================
-  ADD YOUR LAYOUT CSS HERE
-  ================================================ */
-//This is not necessary. Opinionated to remove default margin from body to allow things to go all the way across the screen.
-$primary: #7AB730;
-$dark-green: #34570a;
-$light: #F3F3F3;
-$dark: #212121;
-$gray: #9b9895;
 $padding: 2rem 4rem 6rem 4rem;
-$footer-padding: 2rem 4rem;
 
 /* Home page */
 .about-us-section {
@@ -103,7 +93,7 @@ $footer-padding: 2rem 4rem;
 
 .contact-us-input-and-info {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-wrap: nowrap;
 }
 
