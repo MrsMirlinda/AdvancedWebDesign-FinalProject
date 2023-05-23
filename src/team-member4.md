@@ -1,7 +1,7 @@
 ---
 title: Bio
 layout: base.njk
-tags: navItem
+tags: member
 ---
 <section class="team-member-bio">
     <div class="about-us-header">
