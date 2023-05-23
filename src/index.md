@@ -8,11 +8,15 @@ tags: navItem
     <h4>MAKE YOUR PETS HAPPY</h4>
     <p>Our facility will provide your pets with the best services! 
         Our main goal is to take care of your pets in the best possible way!</p>
+    <figcaption class="img-caption">
+    <a href="https://coodes.co.uk/wp-content/uploads/2022/01/dog-scaled.jpg">Photo</a> on <a href="https://coodes.co.uk/blog/pets-and-domestic-abuse-protecting-the-silent-victims/">Coodes Solicitors</a></figcaption>
 </section>
 <section class="about-us-section">
-    <div class="about-us-img">
+    <figure class="about-us-img">
         <img src="\images\cat.jpg" alt="Portrait of a cat looking at the camera.">
-    </div>
+        <figcaption class="img-caption">
+        <a href="https://unsplash.com/photos/mBRfYA0dYYE">Photo</a> by <a href="https://unsplash.com/ko/@lloydhenneman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lloyd Henneman</a> on Unsplash</figcaption>  
+    </figure>
     <div class="about-us-text">
         <div class="about-us-header">
             <div>
@@ -32,6 +36,7 @@ tags: navItem
                 needs and individuality of each pet. We aim to create a safe, comfortable, and nurturing environment that promotes 
                 their overall well-being.
             </p>
+            <p class="credit">This was written by <a href="https://chat.openai.com/">Chatgpt</a>.</p>
         </div>
     </div>
 </section>
@@ -49,4 +54,6 @@ tags: navItem
         Don't miss out on this limited-time offer! 
         Save 50% on your first order and experience the top-quality pet care services at an unbeatable value.
     </p>
+    <figcaption class="img-caption">
+        <a href="https://healthtopics.vetmed.ucdavis.edu/sites/g/files/dgvnsk6721/files/styles/sf_landscape_16x9/public/images/article/running-dog.jpg?h=e6ddd459&itok=BncDHMvm">Photo</a> on <a href="https://healthtopics.vetmed.ucdavis.edu/health-topics/canine/herpes-infection-dogs">UCDavis Veterinary Medicine</a></figcaption>
 </section>

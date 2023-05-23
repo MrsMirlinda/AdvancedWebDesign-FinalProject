@@ -16,7 +16,11 @@ tags: member
     <div class="team-member-img-and-bio">
         <div class="team-member-img">
             <div>
-                <img src="\images\team-member2.png" alt="Woman hugging a dog">
+                <figure>
+                    <img src="\images\team-member2.png" alt="Woman hugging a dog">
+                    <figcaption class="img-caption">
+                    <a href="https://unsplash.com/photos/WhBGINtjuwc">Photo</a> by <a href="https://unsplash.com/@wildlittlethingsphoto">Helena Lopes</a> on Unsplash</figcaption>
+                </figure>
                 <p>AVA ANDERSON</p>
             </div>
         </div>
@@ -41,6 +45,8 @@ tags: member
                 Beyond her dedication to pet care, Ava enjoys spending time outdoors and exploring nature. She firmly believes in 
                 promoting a healthy and active lifestyle for pets and strives to incorporate this philosophy into her care routine. 
                 With Ava as part of our team, you can trust that your cherished pets are in capable and loving hands.
+
+                <p class="credit">This person was created by <a href="https://chat.openai.com/">Chatgpt</a>.</p>
         </div>
     </div>
     <div class="other-members">

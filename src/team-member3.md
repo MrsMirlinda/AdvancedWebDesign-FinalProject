@@ -16,7 +16,11 @@ tags: member
     <div class="team-member-img-and-bio">
         <div class="team-member-img">
             <div>
-                <img src="\images\team-member3.png" alt="Man sitting  with a dog">
+                <figure>
+                    <img src="\images\team-member3.png" alt="Man sitting  with a dog">
+                    <figcaption class="img-caption">
+                    <a href="https://unsplash.com/photos/MjXND8EDCMo">Photo</a> by <a href="https://unsplash.com/@freddy_ancaph">Freddy Anca Chuquihumaní</a> on Unsplash</figcaption>
+                </figure>
                 <p>JOHN JOHNSON</p>
             </div>
         </div>
@@ -30,6 +34,8 @@ tags: member
                 In addition to his practical skills, John remains up-to-date with the latest advancements and industry best practices in pet care. He actively seeks out opportunities for professional growth, attending workshops and seminars to expand his knowledge and enhance his expertise. John's commitment to ongoing education ensures that our clients' pets receive the highest standard of care.
 
                 Outside of his pet care responsibilities, John enjoys spending time in nature and engaging in outdoor activities. He believes that a healthy and active lifestyle is crucial for pets and incorporates this philosophy into his care routines. With John as part of our team, you can have peace of mind knowing that your beloved pets are in capable and compassionate hands.
+
+                <p class="credit">This person was created by <a href="https://chat.openai.com/">Chatgpt</a>.</p>
         </div>
     </div>
     <div class="other-members">

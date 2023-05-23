@@ -16,7 +16,11 @@ tags: member
     <div class="team-member-img-and-bio">
         <div class="team-member-img">
             <div>
-                <img src="\images\team-member5.png" alt="Man playing with a dog">
+                <figure>
+                    <img src="\images\team-member5.png" alt="Man playing with a dog">
+                    <figcaption class="img-caption">
+                    <a href="https://unsplash.com/photos/WjzZOaYvo_s">Photo</a> by <a href="https://unsplash.com/@zlucerophoto">Zach Lucero</a> on Unsplash</figcaption>
+                </figure>
                 <p>CHRISTOPHER CAMPBELL</p>
             </div>
         </div>
@@ -30,6 +34,8 @@ tags: member
                 In addition to his practical skills, Christopher remains up-to-date with the latest advancements and best practices in pet care. He actively seeks out educational opportunities and stays informed about new techniques and approaches within the industry. Christopher's dedication to ongoing learning ensures that our clients' pets receive the highest standard of care possible.
 
                 Beyond his work in pet care, Christopher has a strong passion for nature and enjoys spending time outdoors. He believes in the importance of incorporating a healthy and active lifestyle into pet care routines. With Christopher as a part of our team, you can trust that your beloved pets will receive the utmost love, attention, and care they deserve.
+
+                <p class="credit">This person was created by <a href="https://chat.openai.com/">Chatgpt</a>.</p>
         </div>
     </div>
     <div class="other-members">

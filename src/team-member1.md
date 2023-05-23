@@ -16,7 +16,11 @@ tags: member
     <div class="team-member-img-and-bio">
         <div class="team-member-img">
             <div>
-                <img src="\images\team-member1.png" alt="Dog kissing woman">
+                <figure>
+                    <img src="\images\team-member1.png" alt="Dog kissing woman">
+                    <figcaption class="img-caption">
+                    <a href="https://unsplash.com/photos/Qdt8f7Tcle0">Photo</a> by <a href="https://unsplash.com/@tamasp">Tamas Pap</a> on Unsplash</figcaption>
+                </figure>
                 <p>EMILY SMITH</p>
             </div>
         </div>
@@ -37,6 +41,8 @@ tags: member
                 receive the highest standard of care.
                 
                 Outside of work, Emily enjoys spending time in nature and exploring the great outdoors. They believe that a healthy and active lifestyle is essential for pets and strive to incorporate this philosophy into their care routine. With Emily on our team, you can rest assured that your beloved pets are in capable and loving hands.
+
+                <p class="credit">This person was created by <a href="https://chat.openai.com/">Chatgpt</a>.</p>
         </div>
     </div>
     <div class="other-members">

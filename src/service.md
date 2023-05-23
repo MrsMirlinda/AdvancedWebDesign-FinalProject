@@ -82,28 +82,43 @@ tags: navItem
     </div>
     <div class="testimonials">
         <div class="testimonial">
-            <img src="\images\testimonial1.png" alt="Testimonial Image">
+            <figure>
+                <img src="\images\testimonial1.png" alt="Testimonial Image">
+                <figcaption class="img-caption">
+                <a href="https://unsplash.com/photos/83HBHD-VT7M">Photo</a> by <a href="https://unsplash.com/@josekarlo01?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karlo Tattoc</a> on Unsplash</figcaption>
+            </figure>
             <h4>Emma Johnson</h4>
             <p id="testimonial">
                 I am so grateful to have found your Pet Care Center! Their team took exceptional care of 
                 my fur baby, providing a safe and nurturing environment. 
             </p>
+            <p class="credit">This person was created by <a href="https://chat.openai.com/">Chatgpt</a>.</p>
         </div>
         <div class="testimonial">
-            <img src="\images\testimonial2.png" alt="Testimonial Image">
+            <figure>
+                <img src="\images\testimonial2.png" alt="Testimonial Image">
+                <figcaption class="img-caption">
+                <a href="https://unsplash.com/photos/tk5LWGNiWVs">Photo</a> by <a href="https://unsplash.com/@tadekl">Tadeusz Lakota</a> on Unsplash</figcaption>
+            </figure>
             <h4>Ethan Thompson</h4>
             <p id="testimonial">
                 From the moment I walked in, I knew my pet was in good hands. 
                 The staff is friendly, knowledgeable, and cares about the well-being of the animals.
             </p>
+            <p class="credit">This person was created by <a href="https://chat.openai.com/">Chatgpt</a>.</p>
         </div>
         <div class="testimonial">
-            <img src="\images\testimonial3.png" alt="Testimonial Image">
+            <figure>
+                <img src="\images\testimonial3.png" alt="Testimonial Image">
+                <figcaption class="img-caption">
+                <a href="https://www.pexels.com/photo/smiling-woman-with-three-dogs-on-a-leash-outdoors-7210531/">Photo</a> by <a href="https://www.pexels.com/@blue-bird/">Blue Bird</a> on Pexels</figcaption>
+            </figure>
             <h4>Olivia Anderson</h4>
             <p id="testimonial">
                 From the moment I stepped into your center, I could sense that my pet was in good hands. 
                 The warm and friendly staff greeted us with open arms.
             </p>
+            <p class="credit">This person was created by <a href="https://chat.openai.com/">Chatgpt</a>.</p>
         </div>
     </div>
 </section>
