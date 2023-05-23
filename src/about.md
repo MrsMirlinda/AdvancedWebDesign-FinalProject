@@ -10,7 +10,7 @@ tags: navItem
     <div class="about-us-text">
         <div class="about-us-header">
             <div>
-                <p id="about-us-vertical-line">|</p>
+                <div id="vertical-line"></div>
             </div>
             <div class="header-text">
                 <h4>ABOUT US</h6>
