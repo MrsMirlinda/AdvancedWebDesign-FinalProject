@@ -43,7 +43,7 @@ tags: member
         <h5>All Team Members</h5>
         <ul>
             {%- for member in collections.member %}
-            <li>
+            <li {% if member.url === page.url %}aria-current="page" class="current"{% endif %}>
             <a href="{{ member.url }}">
             {{ member.data.title }}
             </a>
