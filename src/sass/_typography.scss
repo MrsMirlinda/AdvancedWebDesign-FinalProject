@@ -88,28 +88,6 @@ header {
   text-align: justify;
 }
 
-/* About page */
-// This should be in page-components. It has layout styles and other non-typography settings.
-// It's easier to separate and divide work if typography stays as only for general styles that affect the whole site.
-// .team-member {
-//   display: flex;
-//   justify-content: center;
-//   flex-wrap: wrap;
-//   padding: 1rem;
-//   background-color: $light;
-//   border-radius: 10px;
-//   margin-right: 2rem;
-
-//   a {
-//     text-decoration: none;
-
-//     p {
-//       text-align: center;
-//       color: $dark;
-//     }
-//   }
-// }
-
 /* Team Member Bio */
 .team-member-img {
   p {
@@ -130,6 +108,30 @@ header {
     color: $gray;
     line-height: 1.5rem;
   }
+}
+
+.other-members {
+  h5 {
+    color: $primary;
+    font-size: 1rem;
+  }
+
+  ul {
+      li {
+          a {
+              text-decoration: none;
+              color: $gray;
+              font-weight: bold;
+
+              &:hover {
+                  color: $dark-green;
+                  font-size: 1.1rem;
+                  text-decoration: underline;
+                  transition-duration: 0.5s;
+              }
+          }
+      }
+  } 
 }
 
 /* Service page */

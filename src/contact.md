@@ -5,7 +5,9 @@ tags: navItem
 ---
 <section class="contact-us-section">
     <div class="contact-us-header-section">
-        <p id="contact-vertical-line">|</p>
+        <div>
+            <div class="vertical-line"></div>
+        </div>
         <div class="contact-us-header">
             <h4>CONTACT US</h4>
             <h1>GET IN TOUCH WITH US FOR ANY QUESTION YOU MIGHT HAVE</h1>

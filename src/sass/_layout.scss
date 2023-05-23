@@ -46,6 +46,7 @@ $padding: 2rem 4rem 6rem 4rem;
   flex-wrap: nowrap;
   justify-content: center;
   gap: 3rem;
+
   .team-member-info {
     max-width: 80ch; //make sure bio doesn't get too wide
   }
@@ -54,6 +55,16 @@ $padding: 2rem 4rem 6rem 4rem;
 .team-member-img {
   display: flex;
   align-items: center;
+}
+
+.other-members {
+  text-align: center;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 /* Service page */

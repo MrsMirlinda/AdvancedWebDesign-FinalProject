@@ -216,6 +216,14 @@ $dark: #212121;
         }
     }
 
+    .other-members {
+        ul {
+            display: grid;
+            grid-template-rows: repeat(5, auto);
+            row-gap: 1rem;
+        }
+      }
+
     /* Service page */
     .service-section {
         padding: 0.5rem;

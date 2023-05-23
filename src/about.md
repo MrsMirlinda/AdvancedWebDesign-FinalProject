@@ -10,7 +10,7 @@ tags: navItem
     <div class="about-us-text">
         <div class="about-us-header">
             <div>
-                <div id="vertical-line"></div>
+                <div class="vertical-line"></div>
             </div>
             <div class="header-text">
                 <h4>ABOUT US</h6>
@@ -32,7 +32,7 @@ tags: navItem
     <section class="special-offer">
     <div class="special-offer-header">
         <div>
-            <p id="special-offer-vertical-line">|</p>
+            <div class="special-offer-vertical-line"></div>
         </div>
         <div class="so-header-text">
             <h4>SPECIAL OFFER</h6>
@@ -47,7 +47,7 @@ tags: navItem
     <section class="team">
     <div class="about-us-header">
         <div>
-            <div id="vertical-line"></div>
+            <div class="vertical-line"></div>
         </div>
         <div class="header-text">
             <h4>TEAM MEMBERS</h6>

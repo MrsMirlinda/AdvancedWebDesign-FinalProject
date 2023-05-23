@@ -6,7 +6,7 @@ tags: navItem
 <section class="service-section">
     <div class="about-us-header">
         <div>
-            <div id="vertical-line"></div>
+            <div class="vertical-line"></div>
         </div>
         <div class="header-text" id="service-header">
             <h4>SERVICES</h6>
@@ -73,7 +73,7 @@ tags: navItem
 <section class="testimonials-section">
     <div class="about-us-header">
         <div>
-            <p id="about-us-vertical-line">|</p>
+            <div class="vertical-line"></div>
         </div>
         <div class="header-text" id="service-header">
             <h4>TESTIMONIALS</h6>
@@ -110,7 +110,7 @@ tags: navItem
 <section class="pricing-plan-section">
     <div class="about-us-header">
         <div>
-            <p id="about-us-vertical-line">|</p>
+            <div class="vertical-line"></div>
         </div>
         <div class="header-text">
             <h4>PRICING PLAN</h6>
