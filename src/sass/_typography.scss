@@ -89,24 +89,26 @@ header {
 }
 
 /* About page */
-.team-member {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 1rem;
-  background-color: $light;
-  border-radius: 10px;
-  margin-right: 2rem;
+// This should be in page-components. It has layout styles and other non-typography settings.
+// It's easier to separate and divide work if typography stays as only for general styles that affect the whole site.
+// .team-member {
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   padding: 1rem;
+//   background-color: $light;
+//   border-radius: 10px;
+//   margin-right: 2rem;
 
-  a {
-    text-decoration: none;
+//   a {
+//     text-decoration: none;
 
-    p {
-      text-align: center;
-      color: $dark;
-    }
-  }
-}
+//     p {
+//       text-align: center;
+//       color: $dark;
+//     }
+//   }
+// }
 
 /* Team Member Bio */
 .team-member-img {
