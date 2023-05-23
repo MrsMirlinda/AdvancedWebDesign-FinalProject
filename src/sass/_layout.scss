@@ -46,6 +46,9 @@ $padding: 2rem 4rem 6rem 4rem;
   flex-wrap: nowrap;
   justify-content: center;
   gap: 3rem;
+  .team-member-info {
+    max-width: 80ch; //make sure bio doesn't get too wide
+  }
 }
 
 .team-member-img {

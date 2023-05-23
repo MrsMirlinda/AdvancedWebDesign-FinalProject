@@ -5,6 +5,23 @@ $dark: #212121;
 $padding: 2rem 4rem 6rem 4rem;
 $footer-padding: 2rem 4rem;
 
+/* General Components */
+#vertical-line {
+    // margin: 0 0  2rem 0;
+    width: 10px;
+    background-color: #7AB730;
+    // height: 25px;
+    height:5rem;
+}
+
+.header-text {
+    padding-left: 2rem;
+
+    h4 {
+        margin-top: 2rem;
+    }
+}
+
 /* Home page */
 .entry-section {
     background-image: url("/images/entry-img.jpg");
@@ -21,17 +38,6 @@ $footer-padding: 2rem 4rem;
     }
 }
 
-#about-us-vertical-line {
-    margin: 0;
-}
-
-.header-text {
-    padding-left: 1rem;
-
-    h4 {
-        margin-top: 2rem;
-    }
-}
 
 .about-us-info {
     margin-top: 2rem;
@@ -81,14 +87,26 @@ $footer-padding: 2rem 4rem;
 }
 
 .team-member {
-    padding: 1rem;
+    // padding: 1rem;
     background-color: $light;
     border-radius: 10px;
     margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: $light;
+    border-radius: 10px;
+    overflow: hidden; //allows images to also get border radius if right up to edge
+    margin-right: 2rem;
 
     a {
+        text-decoration: none;
+        p {
+            text-align: center;
+            color: $dark;
+        }
         img {
-            width: 100%;
+            //width: 100%; better not to force images width.
 
             &:hover {
                 border-radius: 50%;

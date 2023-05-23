@@ -6,7 +6,7 @@ tags: navItem
 <section class="service-section">
     <div class="about-us-header">
         <div>
-            <p id="about-us-vertical-line">|</p>
+            <div id="vertical-line"></div>
         </div>
         <div class="header-text" id="service-header">
             <h4>SERVICES</h6>
