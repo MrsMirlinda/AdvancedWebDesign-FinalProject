@@ -1,5 +1,5 @@
 ---
-title: Bio
+title: Emily Smith
 layout: base.njk
 tags: member
 ---
@@ -9,7 +9,7 @@ tags: member
             <div id="vertical-line"></div>
         </div>
         <div class="header-text">
-            <h4>TEAM MEMBER</h6>
+            <h4>TEAM MEMBER</h4>
             <h1 id="team-header">BIO</h1>
         </div>
     </div>
@@ -38,6 +38,16 @@ tags: member
                 
                 Outside of work, Emily enjoys spending time in nature and exploring the great outdoors. They believe that a healthy and active lifestyle is essential for pets and strive to incorporate this philosophy into their care routine. With Emily on our team, you can rest assured that your beloved pets are in capable and loving hands.
             
+            <h5>All Team Members</h5>
+            <ul>
+                {%- for member in collections.member %}
+                <li>
+                <a href="{{ member.url }}">
+                {{ member.data.title }}
+                </a>
+                </li>
+                {%- endfor %}
+            </ul>
         </div>
     </div>
 </section>

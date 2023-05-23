@@ -1,5 +1,5 @@
 ---
-title: Bio
+title: Ava Anderson
 layout: base.njk
 tags: member
 ---
@@ -41,7 +41,17 @@ tags: member
                 Beyond her dedication to pet care, Ava enjoys spending time outdoors and exploring nature. She firmly believes in 
                 promoting a healthy and active lifestyle for pets and strives to incorporate this philosophy into her care routine. 
                 With Ava as part of our team, you can trust that your cherished pets are in capable and loving hands.
-
+            
+            <h5>All Team Members</h5>
+            <ul>
+                {%- for member in collections.member %}
+                <li>
+                <a href="{{ member.url }}">
+                {{ member.data.title }}
+                </a>
+                </li>
+                {%- endfor %}
+            </ul>
         </div>
     </div>
 </section>

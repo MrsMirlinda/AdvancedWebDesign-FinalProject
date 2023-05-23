@@ -1,5 +1,5 @@
 ---
-title: Bio
+title: John Johnson
 layout: base.njk
 tags: member
 ---
@@ -31,6 +31,16 @@ tags: member
 
                 Outside of his pet care responsibilities, John enjoys spending time in nature and engaging in outdoor activities. He believes that a healthy and active lifestyle is crucial for pets and incorporates this philosophy into his care routines. With John as part of our team, you can have peace of mind knowing that your beloved pets are in capable and compassionate hands.
 
+            <h5>All Team Members</h5>
+            <ul>
+                {%- for member in collections.member %}
+                <li>
+                <a href="{{ member.url }}">
+                {{ member.data.title }}
+                </a>
+                </li>
+                {%- endfor %}
+            </ul>
         </div>
     </div>
 </section>
