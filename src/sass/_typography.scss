@@ -300,3 +300,18 @@ footer {
   color: white;
   text-decoration: none;
 }
+
+.img-caption {
+  font-size: 0.5rem;
+  a {
+    color: $dark;
+  }
+}
+
+.credit {
+  font-size: 0.5rem;
+
+  a {
+    color: $dark;
+  }
+}
