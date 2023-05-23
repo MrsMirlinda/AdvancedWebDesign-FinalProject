@@ -6,7 +6,7 @@ tags: navItem
 <section class="team-member-bio">
     <div class="about-us-header">
         <div>
-            <p id="about-us-vertical-line">|</p>
+            <div id="vertical-line"></div>
         </div>
         <div class="header-text">
             <h4>TEAM MEMBER</h6>
